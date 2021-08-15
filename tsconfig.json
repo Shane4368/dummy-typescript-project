@@ -1,0 +1,20 @@
+{
+    "files": [
+        "source/index.ts"
+    ],
+    "compilerOptions": {
+        "outDir": "distribution",
+        "declaration": true,
+        "declarationDir": "typings",
+        "noEmitOnError": true,
+        "stripInternal": false,
+        "strict": true,
+        "noImplicitReturns": true,
+        "skipLibCheck": true,
+        "module": "ES6",
+        "target": "ES6",
+        "lib": [
+            "ESNext"
+        ]
+    }
+}

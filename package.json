@@ -1,0 +1,19 @@
+{
+    "name": "dummy-typescript-project",
+    "version": "0.1.0",
+    "description": "A dummy project to showcase custom TypeDoc theme.",
+    "main": "typedoc.mjs",
+    "scripts": {
+        "build": "tsc --emitDeclarationOnly",
+        "docs": "node ."
+    },
+    "author": "Shane4368",
+    "license": "MIT",
+    "devDependencies": {
+        "@types/node": "^16.4.13",
+        "typedoc": "^0.21.5",
+        "typedoc-selectable-themes": "github:shane4368/typedoc-selectable-themes",
+        "typescript": "^4.3.5"
+    },
+    "private": true
+}
